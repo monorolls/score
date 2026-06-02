@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>You're a Winner!</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monorolls/gsn@main/font.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body oncontextmenu="return false;">
+<div class="wrapper">
+
+  <div class="top-ribbon">
+    <div class="ribbon-dot"></div>
+    <div class="ribbon-dot"></div>
+  </div>
+
+  <div class="cover-wrap">
+    <img id="coverImg" src="https://cdn.jsdelivr.net/gh/monorolls/img@main/cong.gif" alt="Giveaway Prize">
+  </div>
+
+<div id="step1Content">
+  <p class="winner-announcement">
+    Congratulations, You're the lucky winner of our Credit Repair Giveaway! Follow the last step by clicking on the button below to secure your free spot so we can process your reward and publish your name as the winner on our official Facebook page.
+  </p>
+  <button id="nextStepBtn"><span class="button-text">Claim My Spot →</span></button>
+</div>
+
+<div id="step2Content">
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-label">Here's what to do next</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="steps">
+    <div class="step-row">
+      <div class="step-num">1</div>
+      <div><div class="step-body">Make sure to register, you only need to confirm your email and we never ask for your credit card information.</div></div>
+    </div>
+
+    <div class="step-row">
+      <div class="step-num">2</div>
+      <div><div class="step-body">SIGN UP to SoFi - Enter your email address - Follow the steps - Get your free credit score dashboard and $10!</div></div>
+    </div>
+    
+    <div class="step-row">
+      <div class="step-num">3</div>
+      <div>
+        <div class="step-body">WINNER, please claim at the final stage because your free credit access will be entered AUTOMATICALLY.</div>
+      </div>
+    </div>
+  </div>
+
+    <div id="offerContainer"></div>
+</div>
+  <footer>
+    <div class="share-icons-bar">
+      <button class="share-icon-btn wa" id="shareWaBtn">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </button>
+      <button class="share-icon-btn ms" id="shareMsBtn">
+        <i class="fa-brands fa-facebook-messenger"></i> Messenger
+      </button>
+    </div>
+  </footer>
+
+  <div class="share-overlay" id="shareOverlay">
+    <div class="share-sheet">
+      <div class="share-header">
+        <h3>Share this win with 10 friends to claim your reward!</h3>
+        <button class="close-share-btn" id="closeShareBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="share-options">
+        <a href="#" class="share-opt-btn whatsapp-color" id="shareWhatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Share My Win on WhatsApp</span>
+        </a>
+        <a href="#" class="share-opt-btn messenger-color" id="shareMessenger">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <span>Share My Win on Messenger</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/monorolls/tiny@main/sofi.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/monorolls/gsn@main/image.js"></script>
+</body>
+</html>
